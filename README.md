@@ -12,7 +12,6 @@ Viola, Rémi and Emonet, Rémi and Habrard, Amaury and Metzler, Guillaume and Ri
 'An Adjusted Nearest Neighbor Algorithm Maximizing the F-Measure from Imbalanced Data',International Conference on Tools with Artificial Intelligence (ICTAI), 2019
 <https://arxiv.org/abs/1909.00693/>
 
-## Sous-section 2.1
 
 ## TO DO LIST
 
