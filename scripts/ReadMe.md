@@ -1,4 +1,4 @@
-# How to play with \gammma
+# How to play with $`\gamma`$
 
 
 
