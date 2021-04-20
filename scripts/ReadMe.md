@@ -1,7 +1,7 @@
-# How to play with $`\gamma`$
+# How to play with gamma-AdjustedNN
+## Fist install requirements
 
-
-```math
-SE = \frac{\sigma}{\sqrt{n}}
+```console
+C:/User/directory/AdjustedNearestNeigborAlgo/scripts> pip install -r requirements.txt
 ```
 
