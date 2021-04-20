@@ -12,16 +12,17 @@ Viola, Rémi and Emonet, Rémi and Habrard, Amaury and Metzler, Guillaume and Ri
 'An Adjusted Nearest Neighbor Algorithm Maximizing the F-Measure from Imbalanced Data',International Conference on Tools with Artificial Intelligence (ICTAI), 2019
 <https://arxiv.org/abs/1909.00693/>
 
-## FOUND github codes
+## Usefull ressources
+### FOUND github codes
 - Viola R. : <https://github.com/RemiViola/gamma-kNN>
 - wk-NN : <https://github.com/kiranvajrapu/Weighted-Nearest-Neighbors>
 - wk-NN classif : <https://github.com/neilzxu/weighted_knn_classification>
 
-## Principals python libs :
+### Principals python libs :
 https://imbalanced-learn.org/stable/
 https://scikit-learn.org/stable/
 
-## blog articles about :
+### blog articles about :
 https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
  
 ## TO DO LIST
