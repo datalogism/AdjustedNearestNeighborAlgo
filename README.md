@@ -12,14 +12,18 @@ Viola, Rémi and Emonet, Rémi and Habrard, Amaury and Metzler, Guillaume and Ri
 'An Adjusted Nearest Neighbor Algorithm Maximizing the F-Measure from Imbalanced Data',International Conference on Tools with Artificial Intelligence (ICTAI), 2019
 <https://arxiv.org/abs/1909.00693/>
 
-
+## FOUND github codes
+- Viola R. : <https://github.com/RemiViola/gamma-kNN>
+- wk-NN : <https://github.com/kiranvajrapu/Weighted-Nearest-Neighbors>
+- wk-NN classif : <https://github.com/neilzxu/weighted_knn_classification>
+ 
 ## TO DO LIST
 
 - [x] Paper reading 1 : place in state of art landscape
 - [ ] Paper reading 2 : focused on highlighted tasks
 - [ ] writting summary in context
-- [ ] downloading dataset
-- [ ] searching implemented methods if exists
+- [x] downloading dataset
+- [x] searching implemented methods if exists
 - [ ] writing a first analysis notebook
 - [ ] implementation of presented method
 - [ ] tests and finding results of the paper
