@@ -15,7 +15,7 @@ Viola, Rémi and Emonet, Rémi and Habrard, Amaury and Metzler, Guillaume and Ri
 ## TO DO LIST
 
 - [x] Paper reading 1 : place in state of art landscape
-- [ ] Paper reading 2 : focused on highlighted tasks
+- [X] Paper reading 2 : focused on highlighted tasks
 - [ ] writting summary in context
 - [x] downloading dataset
 - [x] searching implemented methods if exists
@@ -32,9 +32,11 @@ Viola, Rémi and Emonet, Rémi and Habrard, Amaury and Metzler, Guillaume and Ri
 - wk-NN : <https://github.com/kiranvajrapu/Weighted-Nearest-Neighbors>
 - wk-NN classif : <https://github.com/neilzxu/weighted_knn_classification>
 
+
 ### Principals python libs :
-https://imbalanced-learn.org/stable/
+https://imbalanced-learn.org/stable/ (contains all sampling methods)
 https://scikit-learn.org/stable/
+
 
 ### blog articles about :
 https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
