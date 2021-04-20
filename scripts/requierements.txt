@@ -1,0 +1,7 @@
+numpy
+sklearn
+pandas
+scipy
+imbalanced-learn
+scikit-optimize
+matplotlib

@@ -8,6 +8,7 @@ Created on Tue Apr 20 16:22:57 2021
 import pandas as pd
 from sklearn import preprocessing
 
+############ FIRST TRY OF IMPLEMENTATION DATASET CLEANING PART
 
 class dataset():
     def __init__(self, file_path, to_predict_col_idx=-1, focused_pred_val=None):
@@ -42,7 +43,7 @@ class dataset():
         print({"size":self.size,"dim":self.dim,"pos_part":r_p_part,"neg_part":r_n_part,"IR": r_IR})  
 
     def get_normalized(self,to_predict_col_idx):
-    	
+    	#### TO DO : how to deal with categorical data
         temp=self.data.iloc[: , :to_predict_col_idx]
         x = temp.values #returns a numpy array
         min_max_scaler = preprocessing.MinMaxScaler()
