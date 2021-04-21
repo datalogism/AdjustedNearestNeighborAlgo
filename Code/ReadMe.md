@@ -1,4 +1,10 @@
-# How to play with gamma-AdjustedNN
+# How i played with gamma-AdjustedNN
+
+1. I first tried to implement from scratch dataset construction task (load_simple_dataset.py/TryToImplmentItFromScratch.ipynb)
+2. I discoved the Remi Viola code and workflow
+3. I merged their and customized it (models_perso.py/testing_workflow.py)
+
+
 ## Fist install requirements
 
 ```console
