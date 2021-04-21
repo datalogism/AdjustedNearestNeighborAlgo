@@ -1,6 +1,3 @@
-### Commands
-> python MLFP.py --dataset autompg --normalization True --pca True --diag True --seed 123 --nb_nn 1
-
 ### List of Datasets
 - abaloneN corresponds to abalone on UCI repository: https://archive.ics.uci.edu/ml/datasets/Abalone (N=positive with N in [8, 17, 20])
 - autompg corresponds to auto-mpg on UCI repository: https://archive.ics.uci.edu/ml/datasets/Auto+MPG (2&3=positive, names are removed and instances with missing values are removed)
