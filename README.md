@@ -15,15 +15,12 @@ Viola, Rémi and Emonet, Rémi and Habrard, Amaury and Metzler, Guillaume and Ri
 ## TO DO LIST
 
 - [x] Paper reading 1 : place in state of art landscape
-- [X] Paper reading 2 : focused on highlighted tasks
-- [ ] writting summary in context
 - [x] downloading dataset
 - [x] searching implemented methods if exists
-- [ ] writing a first analysis notebook
-- [ ] implementation of presented method
-- [ ] tests and finding results of the paper
-- [ ] comparison of dataset 
-- [ ] comparison of methods
+- [x] making work the code for simple case
+- [ ] implement dataset desc.
+- [ ] implement method comp. repports
+- [ ] writting summary paper
 
 
 ## Usefull ressources
