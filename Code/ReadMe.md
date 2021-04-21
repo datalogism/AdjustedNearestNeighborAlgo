@@ -12,8 +12,8 @@ C:/User/directory/AdjustedNearestNeigborAlgo/scripts> pip install -r requirement
 
 Commands
 
-    python Gamma_main.py.py --dataset autompg --normalization True --pca True --seed 123 --nb_nn 1
-
-
+```console
+    python Gamma_main.py.py --dataset autompg --normalization True --pca True --seed 123 --nb_nn 3 --gamma 0.5 --os SMOTE
+```
 
 
