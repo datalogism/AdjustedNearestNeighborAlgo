@@ -1,0 +1,2315 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Rapport Zotero</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9Cg==">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_FYVD8X3K" class="item journalArticle">
+			<h2>A Bayes consistent 1-NN classifier</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Aryeh Kontorovich</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Roi Weiss</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://arxiv.org/abs/1407.0208">http://arxiv.org/abs/1407.0208</a></td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>arXiv:1407.0208 [cs, stat]</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>août 2018</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>We show that a simple modification of the 1-nearest neighbor 
+classifier yields a strongly Bayes consistent learner. Prior to this 
+work, the only strongly Bayes consistent proximity-based method was the 
+k-nearest neighbor classifier, for k growing appropriately with sample 
+size. We will argue that a margin-regularized 1-NN enjoys considerable 
+statistical and algorithmic advantages over the k-NN classifier. These 
+include user-friendly finite-sample error bounds, as well as time- and 
+memory-efficient learning and test-point evaluation algorithms with a 
+principled speed-accuracy tradeoff. Encouraging empirical results are 
+reported.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:34</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:16</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>algo : knn</li>
+					<li>distance methods</li>
+				</ul>
+			</li>
+
+
+			<li id="item_BGBNXF3M" class="item conferencePaper">
+			<h2>A Positive-biased Nearest Neighbour Algorithm for Imbalanced Classification</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Xiuzhen Zhang</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Yuxuan Li</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Jian Pei</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Vincent S. Tseng</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Longbing Cao</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Hiroshi Motoda</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Guandong Xu</td>
+					</tr>
+					<tr>
+					<th>Collection</th>
+						<td>Lecture Notes in Computer Science</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Berlin, Heidelberg</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Springer</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>293–304</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-3-642-37456-2</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2013</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1007/978-3-642-37456-2_25">10.1007/978-3-642-37456-2_25</a></td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>The k nearest neighbour (kNN) algorithm classifies a query 
+instance to the most frequent class among its k nearest neighbours in 
+the training instance space. For imbalanced class distribution where 
+positive training instances are rare, a query instance is often 
+overwhelmed by negative instances in its neighbourhood and likely to be 
+classified to the negative majority class. In this paper we propose a 
+Positive-biased Nearest Neighbour (PNN) algorithm, where the local 
+neighbourhood of query instances is dynamically formed and 
+classification decision is carefully adjusted based on class 
+distribution in the local neighbourhood. Extensive experiments on 
+real-world imbalanced datasets show that PNN has good performance for 
+imbalanced classification. PNN often outperforms recent kNN-based 
+imbalanced classification algorithms while significantly reducing their 
+extra computation cost.</td>
+					</tr>
+					<tr>
+					<th>Titre des actes</th>
+						<td>Advances in Knowledge Discovery and Data Mining</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:42</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:43</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>#cited</li>
+					<li>algo : kpnn</li>
+					<li>distance methods : distribution based</li>
+				</ul>
+			</li>
+
+
+			<li id="item_WVQ9PJN6" class="item journalArticle">
+			<h2>Active Nearest-Neighbor Learning in Metric Spaces</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Aryeh Kontorovich</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Sivan Sabato</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Ruth Urner</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>38</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>We propose a pool-based non-parametric active learning 
+algorithm for general metric spaces, called MArgin Regularized Metric 
+Active Nearest Neighbor (MARMANN), which outputs a nearestneighbor 
+classiﬁer. We give prediction error guarantees that depend on the 
+noisy-margin properties of the input sample, and are competitive with 
+those obtained by previously proposed passive learners. We prove that 
+the label complexity of MARMANN is signiﬁcantly lower than that of any 
+passive learner with similar error guarantees. MARMANN is based on a 
+generalized sample compression scheme, and a new label-efﬁcient active 
+model-selection procedure.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:33</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:14</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>algo : knn</li>
+					<li>distance methods</li>
+				</ul>
+			</li>
+
+
+			<li id="item_I7IM77J2" class="item conferencePaper">
+			<h2>ADASYN: Adaptive synthetic sampling approach for imbalanced learning</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Haibo He</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Yang Bai</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Edwardo A. Garcia</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Shutao Li</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://ieeexplore.ieee.org/document/4633969/">http://ieeexplore.ieee.org/document/4633969/</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Hong Kong, China</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1322–1328</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4244-1820-6</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>juin 2008</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/IJCNN.2008.4633969">10.1109/IJCNN.2008.4633969</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>This paper presents a novel adaptive synthetic (ADASYN) 
+sampling approach for learning from imbalanced data sets. The essential 
+idea of ADASYN is to use a weighted distribution for different minority 
+class examples according to their level of difﬁculty in learning, where 
+more synthetic data is generated for minority class examples that are 
+harder to learn compared to those minority examples that are easier to 
+learn. As a result, the ADASYN approach improves learning with respect 
+to the data distributions in two ways: (1) reducing the bias introduced 
+by the class imbalance, and (2) adaptively shifting the classiﬁcation 
+decision boundary toward the difﬁcult examples. Simulation analyses on 
+several machine learning data sets show the effectiveness of this method
+ across ﬁve evaluation metrics.</td>
+					</tr>
+					<tr>
+					<th>Titre des actes</th>
+						<td>2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence)</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>ADASYN</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:32</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:04</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[experiment]</li>
+					<li>#cited</li>
+					<li>imbalanced data</li>
+					<li>sampling method : ADASYN</li>
+				</ul>
+			</li>
+
+
+			<li id="item_45ZLQMJR" class="item journalArticle">
+			<h2>An Adjusted Nearest Neighbor Algorithm Maximizing the F-Measure from Imbalanced Data</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Rémi Viola</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Rémi Emonet</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Amaury Habrard</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Guillaume Metzler</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Sébastien Riou</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Marc Sebban</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://arxiv.org/abs/1909.00693">http://arxiv.org/abs/1909.00693</a></td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>arXiv:1909.00693 [cs, stat]</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>janvier 2020</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>In this paper, we address the challenging problem of learning 
+from imbalanced data using a Nearest-Neighbor (NN) algorithm. In this 
+setting, the minority examples typically belong to the class of interest
+ requiring the optimization of speciﬁc criteria, like the F-Measure. 
+Based on simple geometrical ideas, we introduce an algorithm that 
+reweights the distance between a query sample and any positive training 
+example. This leads to a modiﬁcation of the Voronoi regions and thus of 
+the decision boundaries of the NN algorithm. We provide a theoretical 
+justiﬁcation about the weighting scheme needed to reduce the False 
+Negative rate while controlling the number of False Positives. We 
+perform an extensive experimental study on many public imbalanced 
+datasets, but also on large scale non public data from the French 
+Ministry of Economy and Finance on a tax fraud detection task, showing 
+that our method is very eﬀective and, interestingly, yields the best 
+performance when combined with state of the art sampling methods.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:22</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 22:20:41</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>#focused</li>
+					<li>algo : gammak-nn</li>
+					<li>distance methods : weighted</li>
+					<li>eval mesure : F1</li>
+					<li>sampling method</li>
+				</ul>
+			</li>
+
+
+			<li id="item_QWPFNXZY" class="item book">
+			<h2>An experimental comparison of performance measures for classification \textbar Pattern Recognition Letters</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>C Ferri</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/abs/10.1016/j.patrec.2008.08.010">https://dl.acm.org/doi/abs/10.1016/j.patrec.2008.08.010</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:29</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:38</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>eval mesure : SOA</li>
+					<li>metric learning</li>
+				</ul>
+			</li>
+
+
+			<li id="item_Z34X3X6D" class="item journalArticle">
+			<h2>Anomaly detection: A survey</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Varun Chandola</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Arindam Banerjee</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Vipin Kumar</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1145/1541880.1541882">https://doi.org/10.1145/1541880.1541882</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>41</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>15:1–15:58</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>ACM Computing Surveys</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0360-0300</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>juillet 2009</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/1541880.1541882">10.1145/1541880.1541882</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Anomaly detection is an important problem that has been 
+researched within diverse research areas and application domains. Many 
+anomaly detection techniques have been specifically developed for 
+certain application domains, while others are more generic. This survey 
+tries to provide a structured and comprehensive overview of the research
+ on anomaly detection. We have grouped existing techniques into 
+different categories based on the underlying approach adopted by each 
+technique. For each category we have identified key assumptions, which 
+are used by the techniques to differentiate between normal and anomalous
+ behavior. When applying a given technique to a particular domain, these
+ assumptions can be used as guidelines to assess the effectiveness of 
+the technique in that domain. For each category, we provide a basic 
+anomaly detection technique, and then show how the different existing 
+techniques in that category are variants of the basic technique. This 
+template provides an easier and more succinct understanding of the 
+techniques belonging to each category. Further, for each category, we 
+identify the advantages and disadvantages of the techniques in that 
+category. We also provide a discussion on the computational complexity 
+of the techniques since it is an important issue in real application 
+domains. We hope that this survey will provide a better understanding of
+ the different directions in which research has been done on this topic,
+ and how techniques developed in one area can be applied in domains for 
+which they were not intended to begin with.</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Anomaly detection</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:25</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:27</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>anomaly detection : SOA</li>
+				</ul>
+			</li>
+
+
+			<li id="item_YJA6KU55" class="item journalArticle">
+			<h2>Assessing Generative Models via Precision and Recall</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Mehdi S. M. Sajjadi</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Olivier Bachem</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Mario Lucic</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Olivier Bousquet</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Sylvain Gelly</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://arxiv.org/abs/1806.00035">http://arxiv.org/abs/1806.00035</a></td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>arXiv:1806.00035 [cs, stat]</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>octobre 2018</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Recent advances in generative modeling have led to an 
+increased interest in the study of statistical divergences as means of 
+model comparison. Commonly used evaluation methods, such as the Frechet 
+Inception Distance (FID), correlate well with the perceived quality of 
+samples and are sensitive to mode dropping. However, these metrics are 
+unable to distinguish between different failure cases since they only 
+yield one-dimensional scores. We propose a novel definition of precision
+ and recall for distributions which disentangles the divergence into two
+ separate dimensions. The proposed notion is intuitive, retains 
+desirable properties, and naturally leads to an efficient algorithm that
+ can be used to evaluate generative models. We relate this notion to 
+total variation as well as to recent evaluation metrics such as 
+Inception Score and FID. To demonstrate the practical utility of the 
+proposed approach we perform an empirical study on several variants of 
+Generative Adversarial Networks and Variational Autoencoders. In an 
+extensive set of experiments we show that the proposed metric is able to
+ disentangle the quality of generated samples from the coverage of the 
+target distribution.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:38</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>algo : generative model</li>
+					<li>eval mesure</li>
+				</ul>
+			</li>
+
+
+			<li id="item_69ZXHEBR" class="item book">
+			<h2>Asymptotic Properties of Nearest Neighbor Rules Using Edited Data \textbar IEEE Journals &amp; Magazine \textbar IEEE Xplore</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>D.L. Wilson</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/4309137">https://ieeexplore.ieee.org/document/4309137</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:41</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:38</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>#cited</li>
+					<li>sampling method : enn</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UIQENWD7" class="item conferencePaper">
+			<h2>Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Hui Han</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Wen-Yuan Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Bing-Huan Mao</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>De-Shuang Huang</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Xiao-Ping Zhang</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Guang-Bin Huang</td>
+					</tr>
+					<tr>
+					<th>Collection</th>
+						<td>Lecture Notes in Computer Science</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Berlin, Heidelberg</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Springer</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>878–887</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-3-540-31902-3</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2005</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1007/11538059_91">10.1007/11538059_91</a></td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>In recent years, mining with imbalanced data sets receives 
+more and more attentions in both theoretical and practical aspects. This
+ paper introduces the importance of imbalanced data sets and their broad
+ application domains in data mining, and then summarizes the evaluation 
+metrics and the existing methods to evaluate and solve the imbalance 
+problem. Synthetic minority over-sampling technique (SMOTE) is one of 
+the over-sampling methods addressing this problem. Based on SMOTE 
+method, this paper presents two new minority over-sampling methods, 
+borderline-SMOTE1 and borderline-SMOTE2, in which only the minority 
+examples near the borderline are over-sampled. For the minority class, 
+experiments show that our approaches achieve better TP rate and F-value 
+than SMOTE and random over-sampling methods.</td>
+					</tr>
+					<tr>
+					<th>Titre des actes</th>
+						<td>Advances in Intelligent Computing</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Borderline-SMOTE</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:32</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:09</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[experiment]</li>
+					<li>#cited</li>
+					<li>imbalanced data</li>
+					<li>sampling method : Boderline-SMOTE</li>
+				</ul>
+			</li>
+
+
+			<li id="item_RAWHIPZ6" class="item conferencePaper">
+			<h2>Class Confidence Weighted kNN Algorithms for Imbalanced Data Sets</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Wei Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Sanjay Chawla</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Joshua Zhexue Huang</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Longbing Cao</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Jaideep Srivastava</td>
+					</tr>
+					<tr>
+					<th>Collection</th>
+						<td>Lecture Notes in Computer Science</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Berlin, Heidelberg</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Springer</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>345–356</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-3-642-20847-8</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2011</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1007/978-3-642-20847-8_29">10.1007/978-3-642-20847-8_29</a></td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>In this paper, a novel k-nearest neighbors (kNN) weighting 
+strategy is proposed for handling the problem of class imbalance. When 
+dealing with highly imbalanced data, a salient drawback of existing kNN 
+algorithms is that the class with more frequent samples tends to 
+dominate the neighborhood of a test instance in spite of distance 
+measurements, which leads to suboptimal classification performance on 
+the minority class. To solve this problem, we propose CCW (class 
+confidence weights) that uses the probability of attribute values given 
+class labels to weight prototypes in kNN. The main advantage of CCW is 
+that it is able to correct the inherent bias to majority class in 
+existing kNN algorithms on any distance measurement. Theoretical 
+analysis and comprehensive experiments confirm our claims.</td>
+					</tr>
+					<tr>
+					<th>Titre des actes</th>
+						<td>Advances in Knowledge Discovery and Data Mining</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:35</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:18</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>#cited</li>
+					<li>distance methods : distribution based</li>
+					<li>imbalanced data</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CHHYND7A" class="item journalArticle">
+			<h2>Distance Metric Learning for Large Margin Nearest Neighbor Classiﬁcation</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Kilian Q Weinberger</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Lawrence K Saul</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>38</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>The accuracy of k-nearest neighbor (kNN) classiﬁcation depends
+ signiﬁcantly on the metric used to compute distances between different 
+examples. In this paper, we show how to learn a Mahalanobis distance 
+metric for kNN classiﬁcation from labeled examples. The Mahalanobis 
+metric can equivalently be viewed as a global linear transformation of 
+the input space that precedes kNN classiﬁcation using Euclidean 
+distances. In our approach, the metric is trained with the goal that the
+ k-nearest neighbors always belong to the same class while examples from
+ different classes are separated by a large margin. As in support vector
+ machines (SVMs), the margin criterion leads to a convex optimization 
+based on the hinge loss. Unlike learning in SVMs, however, our approach 
+requires no modiﬁcation or extension for problems in multiway (as 
+opposed to binary) classiﬁcation. In our framework, the Mahalanobis 
+distance metric is obtained as the solution to a semideﬁnite program. On
+ several data sets of varying size and difﬁculty, we ﬁnd that metrics 
+trained in this way lead to signiﬁcant improvements in kNN 
+classiﬁcation. Sometimes these results can be further improved by 
+clustering the training examples and learning an individual metric 
+within each cluster. We show how to learn and combine these local 
+metrics in a globally integrated manner.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:40</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:34</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[experiment]</li>
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>distance methods : mahanalobis</li>
+					<li>eval mesure : F1 - optimization</li>
+					<li>metric learning</li>
+				</ul>
+			</li>
+
+
+			<li id="item_VF7DYI4V" class="item bookSection">
+			<h2>Distance-Based Classification with Lipschitz Functions</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Chapitre de livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Ulrike von Luxburg</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Olivier Bousquet</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Gerhard Goos</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Juris Hartmanis</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Jan van Leeuwen</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Bernhard Schölkopf</td>
+					</tr>
+					<tr>
+						<th class="editor">Éditeur</th>
+						<td>Manfred K. Warmuth</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://link.springer.com/10.1007/978-3-540-45167-9_24">http://link.springer.com/10.1007/978-3-540-45167-9_24</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>2777</td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Berlin, Heidelberg</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Springer Berlin Heidelberg</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>314–328</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-3-540-40720-1 978-3-540-45167-9</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2003</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.1007/978-3-540-45167-9_24</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>The goal of this article is to develop a framework for large 
+margin classiﬁcation in metric spaces. We want to ﬁnd a generalization 
+of linear decision functions for metric spaces and deﬁne a corresponding
+ notion of margin such that the decision function separates the training
+ points with a large margin. It will turn out that using Lipschitz 
+functions as decision functions, the inverse of the Lipschitz constant 
+can be interpreted as the size of a margin. In order to construct a 
+clean mathematical setup we isometrically embed the given metric space 
+into a Banach space and the space of Lipschitz functions into its dual 
+space. To analyze the resulting algorithm, we prove several representer 
+theorems. They state that there always exist solutions of the Lipschitz 
+classiﬁer which can be expressed in terms of distance functions to 
+training points. We provide generalization bounds for Lipschitz 
+classiﬁers in terms of the Rademacher complexities of some Lipschitz 
+function classes. The generality of our approach can be seen from the 
+fact that several well-known algorithms are special cases of the 
+Lipschitz classiﬁer, among them the support vector machine, the linear 
+programming machine, and the 1-nearest neighbor classiﬁer.</td>
+					</tr>
+					<tr>
+					<th>Titre du livre</th>
+						<td>Learning Theory and Kernel Machines</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:36</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:36</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>algo : knn</li>
+					<li>distance methods</li>
+				</ul>
+			</li>
+
+
+			<li id="item_7YUETJYG" class="item journalArticle">
+			<h2>Efficient top rank optimization with gradient boosting for supervised anomaly detection</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Jordan Frery</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Amaury Habrard</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Marc Sebban</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Olivier Caelen</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Liyun He-Guelton</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>17</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>In this paper we address the anomaly detection problem in a 
+supervised setting where positive examples might be very sparse. We 
+tackle this task with a learning to rank strategy by optimizing a 
+differentiable smoothed surrogate of the so-called Average Precision 
+(AP). Despite its non-convexity, we show how to use it eﬃciently in a 
+stochastic gradient boosting framework. We show that using AP is much 
+better to optimize the top rank alerts than the state of the art 
+measures. We demonstrate on anomaly detection tasks that the interest of
+ our method is even reinforced in highly unbalanced scenarios.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:30</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:40</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>anomaly detection</li>
+					<li>eval mesure : AP - gb optimization</li>
+				</ul>
+			</li>
+
+
+			<li id="item_7WWXAPP4" class="item book">
+			<h2>Fraud and Fraud Detection: A Data Analytics Approach, + Website \textbar Wiley</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>S. Gee</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.wiley.com/en-us/Fraud+and+Fraud+Detection%3A+A+Data+Analytics+Approach%2C+%2B+Website-p-9781118779651">https://www.wiley.com/en-us/Fraud+and+Fraud+Detection%3A+A+Data+Analytics+Approach%2C+%2B+Website-p-9781118779651</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publication Title: Wiley.com</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en-us</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Detect fraud faster—no matter how well hidden—with IDEA 
+automation Fraud and Fraud Detection takes an advanced approach to fraud
+ management, providing step-by-step guidance on automating detection and
+ forensics using CaseWares IDEA software. The book begins by reviewing 
+the major types of fraud, then details the specific computerized tests 
+that can detect them. Readers will learn to use complex data analysis 
+techniques, including automation scripts, allowing easier and more 
+sensitive detection of anomalies that require further review. The 
+companion website provides access to a demo version of IDEA, along with 
+sample scripts that allow readers to immediately test the procedures 
+from the book. Business systems electronic databases have grown 
+tremendously with the rise of big data, and will continue to increase at
+ significant rates. Fraudulent transactions are easily hidden in these 
+enormous datasets, but Fraud and Fraud Detection helps readers gain the 
+data analytics skills that can bring these anomalies to light. 
+Step-by-step instruction and practical advice provide the specific 
+abilities that will enhance the audit and investigation process. Readers
+ will learn to: Understand the different areas of fraud and their 
+specific detection methods Identify anomalies and risk areas using 
+computerized techniques Develop a step-by-step plan for detecting fraud 
+through data analytics Utilize IDEA software to automate detection and 
+identification procedures The delineation of detection techniques for 
+each type of fraud makes this book a must-have for students and new 
+fraud prevention professionals, and the step-by-step guidance to 
+automation and complex analytics will prove useful for even experienced 
+examiners. With datasets growing exponentially, increasing both the 
+speed and sensitivity of detection helps fraud professionals stay ahead 
+of the game. Fraud and Fraud Detection is a guide to more efficient, 
+more effective fraud identification.</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Fraud and Fraud Detection</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:30</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:43</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>#cited</li>
+					<li>eval mesure : F1</li>
+					<li>imbalanced data</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8UZW4YR8" class="item journalArticle">
+			<h2>Generative Adversarial Networks</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Ian J. Goodfellow</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Jean Pouget-Abadie</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Mehdi Mirza</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Bing Xu</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>David Warde-Farley</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Sherjil Ozair</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Aaron Courville</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Yoshua Bengio</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://arxiv.org/abs/1406.2661">http://arxiv.org/abs/1406.2661</a></td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>arXiv:1406.2661 [cs, stat]</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>juin 2014</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>We propose a new framework for estimating generative models 
+via an adversarial process, in which we simultaneously train two models:
+ a generative model G that captures the data distribution, and a 
+discriminative model D that estimates the probability that a sample came
+ from the training data rather than G. The training procedure for G is 
+to maximize the probability of D making a mistake. This framework 
+corresponds to a minimax two-player game. In the space of arbitrary 
+functions G and D, a unique solution exists, with G recovering the 
+training data distribution and D equal to 1/2 everywhere. In the case 
+where G and D are defined by multilayer perceptrons, the entire system 
+can be trained with backpropagation. There is no need for any Markov 
+chains or unrolled approximate inference networks during either training
+ or generation of samples. Experiments demonstrate the potential of the 
+framework through qualitative and quantitative evaluation of the 
+generated samples.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:31</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:02</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>algo : generative model</li>
+				</ul>
+			</li>
+
+
+			<li id="item_LNR2QSYH" class="item conferencePaper">
+			<h2>Hinge Rank Loss and the Area Under the ROC Curve</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>H. Steck</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2007</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1007/978-3-540-74958-5_33">10.1007/978-3-540-74958-5_33</a></td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>In ranking as well as in classification problems, the Area 
+under the ROC Curve (AUC), or the equivalent Wilcoxon-Mann-Whitney 
+statistic, has recently attracted a lot of attention. We show that the 
+AUC can be lower bounded based on the hinge-rank-loss, which simply is 
+the rank-version of the standard (parametric) hinge loss. This bound is 
+asymptotically tight. Our experiments indicate that optimizing the 
+(standard) hinge loss typically is an accurate approximation to 
+optimizing the hinge rank loss, especially when using affine 
+transformations of the data, like e.g. in ellipsoidal machines. This 
+explains for the first time why standard training of support vector 
+machines approximately maximizes the AUC, which has indeed been observed
+ in many experiments in the literature.</td>
+					</tr>
+					<tr>
+					<th>Titre des actes</th>
+						<td>ECML</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:39</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:26</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>eval mesure : F1</li>
+				</ul>
+			</li>
+
+
+			<li id="item_3FD7XHA8" class="item journalArticle">
+			<h2>Information Retrieval, 2nd ed. C.J. Van Rijsbergen. London: Butterworths; 1979: 208 pp. Price: $32.50</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>JCV Rijsbergen</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://doi.wiley.com/10.1002/asi.4630300621">http://doi.wiley.com/10.1002/asi.4630300621</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>30</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>6</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>374–375</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Journal of the American Society for Information Science</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>00028231, 10974571</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>novembre 1979</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1002/asi.4630300621">10.1002/asi.4630300621</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Information Retrieval, 2nd ed. C.J. Van Rijsbergen. London</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:36</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:20</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>#cited</li>
+					<li>eval mesure : F1</li>
+					<li>information retrieval</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6ALG696E" class="item conferencePaper">
+			<h2>Information-theoretic metric learning</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Jason V. Davis</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Brian Kulis</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Prateek Jain</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Suvrit Sra</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Inderjit S. Dhillon</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://portal.acm.org/citation.cfm?doid=1273496.1273523">http://portal.acm.org/citation.cfm?doid=1273496.1273523</a></td>
+					</tr>
+					<tr>
+					<th>Lieu</th>
+						<td>Corvalis, Oregon</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>ACM Press</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>209–216</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-59593-793-3</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2007</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/1273496.1273523">10.1145/1273496.1273523</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>In this paper, we present an information-theoretic approach to
+ learning a Mahalanobis distance function. We formulate the problem as 
+that of minimizing the differential relative entropy between two 
+multivariate Gaussians under constraints on the distance function. We 
+express this problem as a particular Bregman optimization problem—that 
+of minimizing the LogDet divergence subject to linear constraints. Our 
+resulting algorithm has several advantages over existing methods. First,
+ our method can handle a wide variety of constraints and can optionally 
+incorporate a prior on the distance function. Second, it is fast and 
+scalable. Unlike most existing methods, no eigenvalue computations or 
+semi-deﬁnite programming are required. We also present an online version
+ and derive regret bounds for the resulting algorithm. Finally, we 
+evaluate our method on a recent error reporting system for software 
+called Clarify, in the context of metric learning for nearest neighbor 
+classiﬁcation, as well as on standard data sets.</td>
+					</tr>
+					<tr>
+					<th>Titre des actes</th>
+						<td>Proceedings of the 24th international conference on Machine learning - ICML '07</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:27</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:31</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>distance methods : mahanalobis</li>
+					<li>metric learning</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CW3ZKMCY" class="item book">
+			<h2>KRNN \textbar Pattern Recognition</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>X. Zhang</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/abs/10.1016/j.patcog.2016.08.023">https://dl.acm.org/doi/abs/10.1016/j.patcog.2016.08.023</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:42</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:41</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[experiment]</li>
+					<li>#cited</li>
+					<li>algo : krnn</li>
+					<li>distance methods : distribution based</li>
+				</ul>
+				<h3 class="attachments">Pièces jointes</h3>
+				<ul class="attachments">
+					<li id="item_R5RY7L8W">KRNN | Pattern Recognition					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_S9IT47GB" class="item book">
+			<h2>Metric Learning</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Aurélien Bellet</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Amaury Habrard</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Marc Sebban</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hal.archives-ouvertes.fr/hal-01121733">https://hal.archives-ouvertes.fr/hal-01121733</a></td>
+					</tr>
+					<tr>
+					<th>Collection</th>
+						<td>Synthesis Lectures on Artificial Intelligence and Machine Learning</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Morgan &amp; Claypool Publishers (USA), Synthesis Lectures on Artificial Intelligence and Machine Learning, pp 1-151</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>janvier 2015</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.2200/S00626ED1V01Y201501AIM030</td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>N° ds la coll.</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Similarity between objects plays an important role in both 
+human cognitive processes and artificial systems for recognition and 
+categorization. How to appropriately measure such similarities for a 
+given task is crucial to the performance of many machine learning, 
+pattern recognition and data mining methods. This book is devoted to 
+metric learning, a set of techniques to automatically learn similarity 
+and distance functions from data that has attracted a lot of interest in
+ machine learning and related fields in the past ten years. In this 
+book, we provide a thorough review of the metric learning literature 
+that covers algorithms, theory and applications for both numerical and 
+structured data. We first introduce relevant definitions and classic 
+metric functions, as well as examples of their use in machine learning 
+and data mining. We then review a wide range of metric learning 
+algorithms, starting with the simple setting of linear distance and 
+similarity learning. We show how one may scale-up these methods to very 
+large amounts of training data. To go beyond the linear case, we discuss
+ methods that learn nonlinear metrics or multiple linear metrics 
+throughout the feature space, and review methods for more complex 
+settings such as multi-task and semi-supervised learning. Although most 
+of the existing work has focused on numerical data, we cover the 
+literature on metric learning for structured data like strings, trees, 
+graphs and time series. In the more technical part of the book, we 
+present some recent statistical frameworks for analyzing the 
+generalization performance in metric learning and derive results for 
+some of the algorithms presented earlier. Finally, we illustrate the 
+relevance of metric learning in real-world problems through a series of 
+successful applications to computer vision, bioinformatics and 
+information retrieval.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:25</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:25</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>distance methods : SOA</li>
+					<li>metric learning</li>
+				</ul>
+			</li>
+
+
+			<li id="item_IDTL94SI" class="item journalArticle">
+			<h2>Nearest Neighbor Classification with Locally Weighted Distance for Imbalanced Data</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Zahra Hajizadeh</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Mohammad Taheri</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Mansoor Zolghadri Jahromi</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.ijcce.org/index.php?m=content&amp;c=index&amp;a=show&amp;catid=39&amp;id=352">http://www.ijcce.org/index.php?m=content&amp;c=index&amp;a=show&amp;catid=39&amp;id=352</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>81–86</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>International Journal of Computer and Communication Engineering</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>20103743</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2014</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.7763/IJCCE.2014.V3.296">10.7763/IJCCE.2014.V3.296</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>The datasets used in many real applications are highly 
+imbalanced which makes classification problem hard. Classifying the 
+minor class instances is difficult due to bias of the classifier output 
+to the major classes. Nearest neighbor is one of the most popular and 
+simplest classifiers with good performance on many datasets. However, 
+correctly classifying the minor class is commonly sacrificed to achieve a
+ better performance on others. This paper is aimed to improve the 
+performance of nearest neighbor in imbalanced domains, without 
+disrupting the real data distribution. Prototype-weighting is proposed, 
+here, to locally adapting the distances to increase the chance of 
+prototypes from minor class to be the nearest neighbor of a query 
+instance. The objective function is, here, G-mean and optimization 
+process is performed using gradient ascent method. Comparing the 
+experimental results, our proposed method significantly outperformed 
+similar works on 24 standard data sets.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:31</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:07</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[experiment]</li>
+					<li>#cited</li>
+					<li>distance methods : weighted</li>
+					<li>eval mesure : accuracy - optimization</li>
+					<li>imbalanced data</li>
+				</ul>
+			</li>
+
+
+			<li id="item_W5VRK6SB" class="item journalArticle">
+			<h2>Nearest neighbor pattern classification</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>T. Cover</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>P. Hart</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>13</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>21–27</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>IEEE Transactions on Information Theory</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1557-9654</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>janvier 1967</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/TIT.1967.1053964">10.1109/TIT.1967.1053964</a></td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>The nearest neighbor decision rule assigns to an unclassified 
+sample point the classification of the nearest of a set of previously 
+classified points. This rule is independent of the underlying joint 
+distribution on the sample points and their classifications, and hence 
+the probability of errorRof such a rule must be at least as great as the
+ Bayes probability of errorRˆ\textbackslashast–the minimum probability 
+of error over all decision rules taking underlying probability structure
+ into account. However, in a large sample analysis, we will show in 
+theM-category case thatRˆ\textbackslashast \textbackslashleq R 
+\textbackslashleq Rˆ\textbackslashast(2 –MRˆ\textbackslashast/(M-1)), 
+where these bounds are the tightest possible, for all suitably smooth 
+underlying distributions. Thus for any number of categories, the 
+probability of error of the nearest neighbor rule is bounded above by 
+twice the Bayes probability of error. In this sense, it may be said that
+ half the classification information in an infinite sample set is 
+contained in the nearest neighbor.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:26</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:29</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>algo : knn</li>
+				</ul>
+			</li>
+
+
+			<li id="item_IRUKT8R3" class="item book">
+			<h2>Outlier Analysis</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Livre</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Charu C. Aggarwal</td>
+					</tr>
+					<tr>
+					<th>Édition</th>
+						<td>2nd</td>
+					</tr>
+					<tr>
+					<th>Maison d’édition</th>
+						<td>Springer Publishing Company, Incorporated</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-3-319-47577-6</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2016</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>This book provides comprehensive coverage of the field of 
+outlier analysis from a computer science point of view. It integrates 
+methods from data mining, machine learning, and statistics within the 
+computational framework and therefore appeals to multiple communities. 
+The chapters of this book can be organized into three categories:Basic 
+algorithms: Chapters 1 through 7 discuss the fundamental algorithms for 
+outlier analysis, including probabilistic and statistical methods, 
+linear methods, proximity-based methods, high-dimensional (subspace) 
+methods, ensemble methods, and supervised methods. Domain-specific 
+methods: Chapters 8 through 12 discuss outlier detection algorithms for 
+various domains of data, such as text, categorical data, time-series 
+data, discrete sequence data, spatial data, and network data. 
+Applications: Chapter 13 is devoted to various applications of outlier 
+analysis. Some guidance is also provided for the practitioner. The 
+second edition of this book is more detailed and is written to appeal to
+ both researchers and practitioners. Significant new material has been 
+added on topics such as kernel methods, one-class support-vector 
+machines, matrix factorization, neural networks, outlier ensembles, 
+time-series methods, and subspace methods. It is written as a textbook 
+and can be used for classroom teaching.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:23</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:15</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>imbalanced data : SOA</li>
+					<li>outlier detection : SOA</li>
+				</ul>
+			</li>
+
+
+			<li id="item_DAGJP5N7" class="item journalArticle">
+			<h2>Severely imbalanced Big Data challenges: investigating data sampling approaches</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Tawfiq Hasanin</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Taghi M. Khoshgoftaar</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Joffrey L. Leevy</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Richard A. Bauder</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0274-4">https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0274-4</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>6</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>107</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Journal of Big Data</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2196-1115</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>décembre 2019</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1186/s40537-019-0274-4">10.1186/s40537-019-0274-4</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Severe class imbalance between majority and minority classes 
+in Big Data can bias the predictive performance of Machine Learning 
+algorithms toward the majority (negative) class. Where the minority 
+(positive) class holds greater value than the majority (negative) class 
+and the occurrence of false negatives incurs a greater penalty than 
+false positives, the bias may lead to adverse consequences. Our paper 
+incorporates two case studies, each utilizing three learners, six 
+sampling approaches, two performance metrics, and five sampled 
+distribution ratios, to uniquely investigate the effect of severe class 
+imbalance on Big Data analytics. The learners (Gradient-Boosted Trees, 
+Logistic Regression, Random Forest) were implemented within the Apache 
+Spark framework. The first case study is based on a Medicare fraud 
+detection dataset. The second case study, unlike the first, includes 
+training data from one source (SlowlorisBig Dataset) and test data from a
+ separate source (POST dataset). Results from the Medicare case study 
+are not conclusive regarding the best sampling approach using Area Under
+ the Receiver Operating Characteristic Curve and Geometric Mean 
+performance metrics. However, it should be noted that the Random 
+Undersampling approach performs adequately in the first case study. For 
+the SlowlorisBig case study, Random Undersampling convincingly 
+outperforms the other five sampling approaches (Random Oversampling, 
+Synthetic Minority Over-sampling TEchnique, SMOTE-borderline1 , 
+SMOTE-borderline2 , ADAptive SYNthetic) when measuring performance with 
+Area Under the Receiver Operating Characteristic Curve and Geometric 
+Mean metrics. Based on its classification performance in both case 
+studies, Random Undersampling is the best choice as it results in models
+ with a significantly smaller number of samples, thus reducing 
+computational burden and training time.</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>Severely imbalanced Big Data challenges</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:24</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:12</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>anomaly detection : SOA</li>
+					<li>imbalanced data : SOA</li>
+					<li>sampling method : SOA</li>
+				</ul>
+			</li>
+
+
+			<li id="item_3BV6RVZD" class="item journalArticle">
+			<h2>SMOTE for Learning from Imbalanced Data: Progress and Challenges, Marking the 15-year Anniversary</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Alberto Fernandez</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Salvador Garcia</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Francisco Herrera</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>Nitesh V. Chawla</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.jair.org/index.php/jair/article/view/11192">https://www.jair.org/index.php/jair/article/view/11192</a></td>
+					</tr>
+					<tr>
+					<th>Autorisations</th>
+						<td>Copyright (c)</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>61</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>863–905</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Journal of Artificial Intelligence Research</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1076-9757</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>avril 2018</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1613/jair.1.11192">10.1613/jair.1.11192</a></td>
+					</tr>
+					<tr>
+					<th>Consulté le</th>
+						<td>19/04/2021 à 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Titre abrégé</th>
+						<td>SMOTE for Learning from Imbalanced Data</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:28</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:36</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>imbalanced data</li>
+					<li>sampling method : SMOTE</li>
+				</ul>
+			</li>
+
+
+			<li id="item_SU8DN9GP" class="item journalArticle">
+			<h2>Strategies for learning in class imbalance problems</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>R Barandela</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>J S SaÃnchez</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>V GarcÃa</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>E Rangel</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Pattern Recognition</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2003</td>
+					</tr>
+					<tr>
+					<th>Langue</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:23</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:22</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[experiment]</li>
+					<li>#cited</li>
+					<li>algo : cwk-nn</li>
+					<li>distance methods : geometric dist</li>
+					<li>eval mesure : ROC</li>
+					<li>sampling method : downsizing</li>
+				</ul>
+			</li>
+
+
+			<li id="item_3TDAAARQ" class="item journalArticle">
+			<h2>The Distance-Weighted k-Nearest-Neighbor Rule</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de revue</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>S. A. Dudani</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>SMC-6</td>
+					</tr>
+					<tr>
+					<th>Numéro</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>325–327</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>IEEE Transactions on Systems, Man, and Cybernetics</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2168-2909</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>avril 1976</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/TSMC.1976.5408784">10.1109/TSMC.1976.5408784</a></td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Among the simplest and most intuitively appealing classes of 
+nonprobabilistic classification procedures are those that weight the 
+evidence of nearby sample observations most heavily. More specifically, 
+one might wish to weight the evidence of a neighbor close to an 
+unclassified observation more heavily than the evidence of another 
+neighbor which is at a greater distance from the unclassified 
+observation. One such classification rule is described which makes use 
+of a neighbor weighting function for the purpose of assigning a class to
+ an unclassified sample. The admissibility of such a rule is also 
+considered.</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:27</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:45:34</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[experiment]</li>
+					<li>#cited</li>
+					<li>algo : wk-nn</li>
+					<li>distance methods : weighted</li>
+				</ul>
+			</li>
+
+
+			<li id="item_PY3VAAZZ" class="item conferencePaper">
+			<h2>Two Modifications of CNN</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Article de colloque</td>
+					</tr>
+					<tr>
+						<th class="author">Auteur</th>
+						<td>I. Tomek</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1976</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/tsmc.1976.4309452">10.1109/tsmc.1976.4309452</a></td>
+					</tr>
+					<tr>
+					<th>Résumé</th>
+						<td>Semantic Scholar extracted view of "Two Modifications of CNN" by I. Tomek</td>
+					</tr>
+					<tr>
+					<th>Date d'ajout</th>
+						<td>19/04/2021 à 19:07:40</td>
+					</tr>
+					<tr>
+					<th>Modifié le</th>
+						<td>20/04/2021 à 21:46:29</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Marqueurs :</h3>
+				<ul class="tags">
+					<li>[experiment]</li>
+					<li>[introduction]</li>
+					<li>#cited</li>
+					<li>algo : cnn</li>
+					<li>sampling method : Tomek’s link</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>
