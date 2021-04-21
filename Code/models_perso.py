@@ -63,18 +63,14 @@ class SimpleKnn():
         print("finish")
         return self
         
-    def predict(self, X):            
-
-        print("predict")
-        distance_test_to_positive = self.nn_pos_.kneighbors(X, return_distance = True)[0]
-        distance_test_to_negative = self.nn_neg_.kneighbors(X, return_distance = True)[0]
+    def predict(self, X):     
         
 
         return  knn.predict(X)
     
         
        
-class Gamma():
+class GammaKnn():
     def __init__(self, nb_nn = 3, gamma = 0.5):
         self.gamma = gamma
         self.nb_nn = nb_nn

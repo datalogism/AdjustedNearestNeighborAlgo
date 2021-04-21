@@ -14,7 +14,7 @@ import os
 
 from functions import data_recovery
 
-from gamma_perso import Gamma
+from models_perso import GammaKnn
 
 # Metric Learning tools
 # from skopt.space import Real
@@ -198,7 +198,7 @@ def learning(param, ctrl=False):
         X_va = pca.transform(X_va)
         X_te = pca.transform(X_te)
 
-    gammaKnn = Gamma(nb_nn=opt.nb_nn, gamma=params)
+    gammaKnn = GammaKnn(nb_nn=opt.nb_nn, gamma=params)
     # For controling overfitting
     gammaKnn.ctrl = ctrl
 
