@@ -35,38 +35,40 @@ class SimpleKnn():
         self.dim_ = len(X[0])
         self.X_ = X
         self.y_ = y
-        print("FIT")
+        self.model=NearestNeighbors(n_neighbors = self.nb_nn)
+        self.model.fit(self.X_,self.y_)
+        # print("FIT")
 
-        print("'os :'",OS_str)
-        if(OS_str): 
-            try:
-                OS=OS_methods[OS_str[0]]       
-            except ValueError:
-                print("not a valide over_sampling method")
+        # print("'os :'",OS_str)
+        # if(OS_str): 
+        #     try:
+        #         OS=OS_methods[OS_str[0]]       
+        #     except ValueError:
+        #         print("not a valide over_sampling method")
             
-            self.OS_ = OS
-            X_os,y_os = self.OS_.fit_resample(self.X_,self.y_)
-            print(X_os)
-            self.nn_pos_ = NearestNeighbors(n_neighbors = self.nb_nn)
-            print("hey")
-            self.nn_pos_.fit(X_os[y_os == 1])
+        #     self.OS_ = OS
+        #     X_os,y_os = self.OS_.fit_resample(self.X_,self.y_)
+        #     print(X_os)
+        #     self.nn_pos_ = NearestNeighbors(n_neighbors = self.nb_nn)
+        #     print("hey")
+        #     self.nn_pos_.fit(X_os[y_os == 1])
             
-            self.nn_neg_ = NearestNeighbors(n_neighbors = self.nb_nn)
-            self.nn_neg_.fit(X_os[y_os != 1])
-        else:
-            self.nn_pos_ = NearestNeighbors(n_neighbors = self.nb_nn)
-            self.nn_pos_.fit(self.X_[self.y_ == 1])
+        #     self.nn_neg_ = NearestNeighbors(n_neighbors = self.nb_nn)
+        #     self.nn_neg_.fit(X_os[y_os != 1])
+        # else:
+        #     self.nn_pos_ = NearestNeighbors(n_neighbors = self.nb_nn)
+        #     self.nn_pos_.fit(self.X_[self.y_ == 1])
         
-            self.nn_neg_ = NearestNeighbors(n_neighbors = self.nb_nn)
-            self.nn_neg_.fit(self.X_[self.y_ != 1])
+        #     self.nn_neg_ = NearestNeighbors(n_neighbors = self.nb_nn)
+        #     self.nn_neg_.fit(self.X_[self.y_ != 1])
 
-        print("finish")
+        # print("finish")
         return self
         
     def predict(self, X):     
         
 
-        return  knn.predict(X)
+        return  self.model.predict(X)
     
         
        
