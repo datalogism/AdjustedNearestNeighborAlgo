@@ -1,4 +1,8 @@
-### List of Datasets
+## First analysis
+1. i tried to find most popular papers from cited sources
+2. i get the corresponding network
+
+## List of Datasets
 - abaloneN corresponds to abalone on UCI repository: https://archive.ics.uci.edu/ml/datasets/Abalone (N=positive with N in [8, 17, 20])
 - autompg corresponds to auto-mpg on UCI repository: https://archive.ics.uci.edu/ml/datasets/Auto+MPG (2&3=positive, names are removed and instances with missing values are removed)
 - balance corresponds to balance-scale on UCI repository: https://archive.ics.uci.edu/ml/datasets/Balance+Scale (L=positive)
