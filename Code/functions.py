@@ -163,7 +163,7 @@ def data_recovery(opt, date):
     elif opt.dataset in ['yeast3', 'yeast6']:
         data = pd.read_csv("../Datasets/yeast.data", header=None, sep=r'\s+')
         data = data.drop([0], axis=1)
-        print(data)
+        # print(data)
 
         if opt.dataset == 'yeast3':
             y = np.array([1 if elt == 'ME3' else 0 for elt in data[8]])

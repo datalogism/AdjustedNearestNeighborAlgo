@@ -212,7 +212,7 @@ def learning(param, ctrl=False):
         gammaKnn.store_f_m = []
         gammaKnn.store_loss = []
 
-    gammaKnn.fit(X_tr, y_tr,opt.os
+    gammaKnn.fit(X_tr, y_tr,opt.os)
 
     # if gammaKnn.ctrl:
     #     df = pd.DataFrame(gammaKnn.store_loss)
@@ -291,8 +291,16 @@ def objective(params):
 #################
 
 X, y, dim = data_recovery(opt, date)
-stat=dict(y.value_counts())
-print(stat)
+# ADDED CODE FOR DESCRIBE Dataset
+# size = X.shape[0]
+# unique, counts = np.unique(y, return_counts=True)
+# stat=dict(zip(unique, counts))
+# pos_part=stat[True]/size*100
+# neg_part=100-pos_part
+# r_n_part=round(neg_part,2)
+# r_p_part=round(pos_part,2)
+# r_IR=round(neg_part/r_p_part,2)
+# print({"size":size,"dim":dim,"pos_part":r_p_part,"neg_part":r_n_part,"IR": r_IR})
 
 ####################
 #                  #
