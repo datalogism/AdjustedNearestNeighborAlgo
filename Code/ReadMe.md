@@ -14,7 +14,18 @@
 - logistic reg
 - svm
 - naive bayes
-- 
+
+## Potential dataset in view of biblio
+* hepatitis
+* wovel
+* breastcancer
+* heart cleveland
+* iris
+* soybean
+* ada
+* sylva
+* oil
+
 
 ## Workcomments
 - how they played with categorial data ? how to play with binarised data ?
