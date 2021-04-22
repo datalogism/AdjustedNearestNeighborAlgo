@@ -10,9 +10,20 @@
 - [x] test on all dataset with OS
 - [ ] test on all dataset with metric learning
 
+## Comparison with methods
+
+- decision trees ?
+- logistic reg
+- svm
+- naive bayes
+- 
+
 ## Workcomments
 - how they played with categorial data ? how to play with binarised data ?
-- 
+
+## Hitch
+- Yeast dataset
+- gradient based library pb
 
 ## Fist install requirements
 
@@ -25,7 +36,9 @@ C:/User/directory/AdjustedNearestNeigborAlgo/scripts> pip install -r requirement
 * https://github.com/RemiViola/gamma-kNN
 * https://github.com/RemiViola/MLFP
 
-## Commands
-
+## interesting pages
+* https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
+* https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
+* https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
 
 
