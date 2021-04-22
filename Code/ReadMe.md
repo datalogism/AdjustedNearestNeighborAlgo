@@ -1,9 +1,19 @@
 # How i played with gamma-AdjustedNN
 
-1. I first tried to implement from scratch dataset construction task (load_simple_dataset.py/TryToImplmentItFromScratch.ipynb)
-2. I discoved the Remi Viola code and workflow
-3. I merged their and customized it (models_perso.py/testing_workflow.py)
+## TO DO
+- [x] trying to implement from scratch dataset construction task (load_simple_dataset.py)
+- [x] discovering the Remi Viola code and workflow
+- [x] merging their and customized it (models_perso.py/testing_workflow.py)
+- [x] describing dataset : Describe_dataset notebook
+- [x] testing it on simple case : Testingworkflow
+- [] PCA viz with colored distanced nodes
+- [] synthetic data add for os
+- [] models 
+- [] 
 
+## Workcomments
+- how they played with categorial data ?
+- 
 
 ## Fist install requirements
 
@@ -16,10 +26,7 @@ C:/User/directory/AdjustedNearestNeigborAlgo/scripts> pip install -r requirement
 * https://github.com/RemiViola/gamma-kNN
 * https://github.com/RemiViola/MLFP
 
-Commands
+## Commands
 
-```console
-    python testing_workflow.py.py --dataset autompg --normalization True --pca True --seed 123 --nb_nn 3 --gamma 0.5 --os SMOTE
-```
 
 
