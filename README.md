@@ -19,8 +19,8 @@ Viola, Rémi and Emonet, Rémi and Habrard, Amaury and Metzler, Guillaume and Ri
 - [x] searching implemented methods if exists
 - [x] making work the code for simple case
 - [x] writting summary paper
-- [ ] implementing oversampling and metric learning
-- [ ] comparison on datasets
+- [x] implementing oversampling and metric learning
+- [ ] comparison on datasets 
 - [ ] comparison with other models described
 
 ### BONUS TODOLIST
