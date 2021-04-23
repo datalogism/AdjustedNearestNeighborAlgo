@@ -7,6 +7,7 @@
 4. testing it  : [Testingworkflow noteBook](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/Testingworkflow.ipynb)
 5. describe dataset : [Describe_dataset note book](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/Describe_dataset.ipynb)
 6. testing it on simple data : [Toy dataset noteBook](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/TestGammaKnn_toydataset.ipynb)
+7. cv and test of models : [TestingPanelOfModels](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/TestingPanelOfModels.ipynb)
 
 ## Comparison with methods
 
