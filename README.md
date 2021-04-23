@@ -18,10 +18,15 @@ Viola, Rémi and Emonet, Rémi and Habrard, Amaury and Metzler, Guillaume and Ri
 - [x] downloading dataset
 - [x] searching implemented methods if exists
 - [x] making work the code for simple case
-- [ ] implement dataset desc.
-- [ ] implement method comp. repports
-- [ ] writting summary paper
+- [x] writting summary paper
+- [ ] implementing oversampling and metric learning
+- [ ] comparison on datasets
+- [ ] comparison with other models described
 
+### BONUS TODOLIST
+- [ ] classical ML methods comparison
+- [ ] IR vs F measures on dataset
+- [ ] adding other dataset to compare
 
 ## Usefull ressources
 ### FOUND github codes
