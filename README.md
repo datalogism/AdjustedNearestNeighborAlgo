@@ -43,3 +43,6 @@ https://scikit-learn.org/stable/
 ### blog articles about :
 https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
 
+### Linked work of members :
+http://researchers.lille.inria.fr/abellet/talks/metric_learning_tutorial_CIL.pdf
+https://arxiv.org/abs/1909.01651?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+arxiv%252FQSXk+%2528ExcitingAds%2521+cs+updates+on+arXiv.org%2529
