@@ -7,7 +7,11 @@
 4. testing it  : [Testingworkflow noteBook](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/Testingworkflow.ipynb)
 5. describe dataset : [Describe_dataset note book](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/Describe_dataset.ipynb)
 6. testing it on simple data : [Toy dataset noteBook](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/TestGammaKnn_toydataset.ipynb)
-7. cv and test of models : [TestingPanelOfModels](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/TestingPanelOfModels.ipynb)
+7. cv and test of models : [TestingPanelOfModels noteBook](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/TestingPanelOfModels.ipynb)
+8. benchmarking of models : [CompareAllModels noteBook](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/CompareAllModels.ipynb)
+9. benchmarking of models+sampling methods : [CompareOSMethods noteBook](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/CompareOSMethods.ipynb)
+10. benchmarking of models+sampling methods with dual gamma : [CompareOSMethods2](https://github.com/datalogism/AdjustedNearestNeighborAlgo/blob/main/Code/CompareOSMethods2.ipynb)
+
 
 ## Comparison with methods
 
@@ -33,7 +37,6 @@
 
 ## Hitch
 - Yeast dataset
-- gradient based library pb
 
 ## Fist install requirements
 
